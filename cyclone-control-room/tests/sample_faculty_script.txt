@@ -1,0 +1,23 @@
+# Example faculty-style test script for console mode:  ./run-console.sh < tests/sample_faculty_script.txt
+demo
+raise R-2 1
+raise R-5 1
+serve Puri
+serve Ganjam
+merge Ganjam Khordha
+merge Puri Khordha
+merge Puri Khordha
+raise R-12 3
+raise R-12 9
+raise R-99 1
+add Puri boat 2
+serveall
+cancel R-11
+cancel R-11
+add Puri food 0
+add Puri spaceship 3
+serve Atlantis
+check
+stats
+replay
+quit
